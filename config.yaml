@@ -1,0 +1,22 @@
+
+data:
+  seed_m2_prices:
+    url: https://immobilier.lefigaro.fr/prix-immobilier
+    file: data/average_sell_prices.csv
+  villes_a_vivre:
+    url: https://www.villesavivre.fr
+  city_codes:
+    url: https://static.data.gouv.fr/resources/communes-de-france-base-des-codes-postaux/20200309-131459/communes-departement-region.csv
+    keys: ["code_commune_INSEE", "code_postal", "nom_commune", "latitude", "longitude", "nom_commune_postal"]
+  geojson:
+    url: https://static.data.gouv.fr/resources/contours-des-communes-de-france-simplifie-avec-regions-et-departement-doutre-mer-rapproches/20210523-101702/a-com2021.json
+  prices_departements:
+    url: https://immobilier.lefigaro.fr/prix-immobilier
+  driving_distances:
+    url: https://routing.openstreetmap.de/routed-car/route/v1/driving
+  lucies_parents:
+    name: ribagnac
+    code_commune_INSEE: 24351
+  adriens_parents:
+    name: quimper
+    code_commune_INSEE: 29232

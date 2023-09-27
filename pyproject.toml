@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "house-pricing"
+version = "0.0.0"
+description = "A simple app to select a place where to live in France."
+authors = ["Adrien Henry <adrien.henry@protonmail.com>"]
+license = "None"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "~3.10"
+pandas = "^2.1.0"
+loguru = "^0.7.2"
+pyyaml = "^6.0.1"
+tqdm = "^4.66.1"
+requests = "^2.31.0"
+beautifulsoup4 = "^4.12.2"
+jupyter = "^1.0.0"
+ipyleaflet = "^0.17.4"
+folium = "^0.14.0"
+voila = "^0.5.4"
+ipyspin = "^1.0.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
